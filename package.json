@@ -1,0 +1,31 @@
+{
+  "name": "zoomclone",
+  "version": "1.0.0",
+  "description": "Zoom Clone using NodeJs, WebRTC and Websockets",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StrummingDown/zoomClone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "dev": "nodemon"
+  },
+  "bugs": {
+    "url": "https://github.com/StrummingDown/zoomClone/issues"
+  },
+  "homepage": "https://github.com/StrummingDown/zoomClone#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.17.0",
+    "@babel/core": "^7.17.0",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.11",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "express": "^4.17.2",
+    "pug": "^3.0.2",
+    "ws": "^8.4.2"
+  }
+}
